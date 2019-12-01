@@ -4,8 +4,6 @@ var textByLine = text.split("\n");
 
 var sum = 0;
 
-console.log(Math.floor(textByLine[0]/3)-2);
-
 for(i=0; i < textByLine.length; i++){
     textByLine[i] = parseInt(textByLine[i]);
     textByLine[i] = Math.floor(textByLine[i]/3)-2;
