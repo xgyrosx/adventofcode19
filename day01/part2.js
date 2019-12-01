@@ -14,8 +14,6 @@ function calculateFuel(module){
             return null;
         }
         calculateFuel(module);
-        console.log(module);
-        console.log(fuels);
     } else {
         return null;
     }
