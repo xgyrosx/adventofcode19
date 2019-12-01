@@ -3,7 +3,6 @@ var text = fs.readFileSync("./data.txt").toString('utf-8');
 var textByLine = text.split("\n");
 
 var sum = 0;
-// textByLine[0] = parseInt(textByLine[0]);
 
 console.log(Math.floor(textByLine[0]/3)-2);
 
